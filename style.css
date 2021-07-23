@@ -61,10 +61,17 @@
   padding-top: 10%;
   color: white;
   display: flex;
-  justify-content: right;
-  align-items: right;
+  justify-content: center;
+  align-items: center;
 }
 
+.kolom {
+  border: 1px solid;
+  color: white;
+}
+.kolom h3 {
+  color: rgb(228, 157, 25);
+}
 .topscore {
   padding-top: 20%;
   padding-bottom: 20%;
@@ -87,8 +94,10 @@
   font-size: 5vw;
 }
 .work-content h1,
-.contact-content h1 {
+.contact-content h1,
+.aboutme h1 {
   letter-spacing: 5px;
+  color: white;
 }
 
 /* css ambil */
@@ -100,7 +109,7 @@ ul {
 }
 .mainDiv {
   height: 200px;
-  width: 400px;
+  width: 300px;
   position: relative;
 }
 
