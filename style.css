@@ -45,7 +45,7 @@
   padding-top: 20%;
   color: white;
   display: flex;
-  justify-content: right;
+  justify-content: center;
   align-items: center;
 }
 
@@ -93,18 +93,37 @@
 
 /* css ambil */
 ul {
-  padding-left: 14px;
+  padding-left: 12px;
   margin-top: -6px;
   margin-bottom: -6px;
   padding-bottom: 0;
 }
-#mainDiv {
+.mainDiv {
   height: 200px;
-  width: 200px;
+  width: 400px;
   position: relative;
 }
-#borderLeft {
-  border-left: 3px solid #fffdfd;
+
+.borderLeft {
+  border-left: 4px solid #fffdfd;
   position: absolute;
   top: 25px;
+  height: 100px;
+}
+
+.borderLeft li {
+  list-style-type: none;
+  display: list-item;
+  margin-left: -1px;
+  color: #cf8626;
+  font-size: x-large;
+}
+
+.borderLeft li:before {
+  content: "";
+  border: 7px rgb(252, 252, 252) solid !important;
+  border-radius: 50px;
+  margin-top: 5px;
+  margin-left: -20px;
+  position: absolute;
 }
