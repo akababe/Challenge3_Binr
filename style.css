@@ -69,11 +69,11 @@
   border: 1px solid;
   color: white;
 }
-.kolom2{
+.kolom2 {
   border: 2px solid;
   color: blue;
 }
-.kolom3{
+.kolom3 {
   border: 2px solid;
   color: rgb(245, 0, 204);
 }
@@ -88,15 +88,17 @@
 .topscore-content {
   padding-top: 7%;
   color: white;
-
+}
+.fototop {
+  height: 70px%;
+  width: 70px;
 }
 
 .pcard {
   padding-top: 7%;
 }
 
-
-.newsletter{
+.newsletter {
   height: 80vh;
 
   background-size: cover;
@@ -107,7 +109,6 @@
 .newsletter-content {
   padding-top: 5%;
   color: white;
- 
 }
 
 .newsletter-form {
@@ -117,7 +118,7 @@
 }
 
 .newsletter-input,
-.newsletter-text  {
+.newsletter-text {
   background: #232525;
   flex: 1.5;
   border-radius: 5px;
@@ -132,16 +133,14 @@
 }
 .work-content h1,
 .contact-content h1,
-.aboutme h1, 
-.topscore-content h1{
+.aboutme h1,
+.topscore-content h1 {
   letter-spacing: 5px;
   color: white;
-  
 }
 
-
 /* Footer */
-.footer{
+.footer {
   background: #000000;
 }
 
@@ -154,7 +153,6 @@
 .footer-menu__nav {
   display: inline-flex;
 }
-
 
 /* css ambil */
 ul {
@@ -193,16 +191,7 @@ ul {
   position: absolute;
 }
 
-// Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) {
-  .navbar{
-    background: #000;
-  }
-  }
-}
-
-.footerbackground{
-
+.footerbackground {
 }
 /* CSS Footer Ambil */
 
@@ -210,7 +199,6 @@ ul {
   background-position: center;
   background-color: black;
   background-size: cover;
-  height: 10vh;
   text-align: left;
   font: normal 16px sans-serif;
   padding: 10px 5px;
@@ -220,8 +208,7 @@ ul {
   color: #8f9296;
   font-size: 16px;
   margin: 0;
-  text-align : center ;
-  
+  text-align: center;
 }
 /* Footer links */
 
@@ -231,20 +218,18 @@ ul {
   color: #ffffff;
   margin: 0 0 10px;
   padding: 0;
-  transition: ease .25s;
+  transition: ease 0.25s;
 }
 
 .footer-distributed p.footer-links a {
-
   display: inline-block;
   padding: 0 10px;
   line-height: 1.8;
   text-decoration: none;
   color: inherit;
-  transition: ease .25s;
+  transition: ease 0.25s;
   font-size: 16px;
 }
-
 
 .footer-distributed .footer-right {
   float: right;
@@ -261,20 +246,18 @@ ul {
   text-align: center;
   line-height: 35px;
   margin-left: 6px;
-  transition:all .25s;
+  transition: all 0.25s;
 }
 
-.footer-distributed .footer-info{
+.footer-distributed .footer-info {
   font-size: 16px;
   color: #ffffff;
   text-align: center;
   display: flex;
 }
 .footer-distributed .footer-bawah a {
-
   display: inline-block;
   text-decoration: none;
   color: inherit;
   font-size: 20px;
 }
-
