@@ -86,11 +86,13 @@
 }
 
 .topscore-content {
-  padding-top: 20%;
+  padding-top: 7%;
   color: white;
-  display: flex;
-  justify-content: left;
-  align-items: center;
+
+}
+
+.pcard {
+  padding-top: 7%;
 }
 
 .fontbesar {
