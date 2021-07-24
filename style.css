@@ -79,7 +79,7 @@
 }
 .topscore {
   height: 100vh;
-  background: url(assets/bg3.JPG);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url(assets/bg3.JPG);
   background-size: cover;
   background-position: center;
   background-color: black;
@@ -255,7 +255,7 @@ ul {
   text-align: center;
   display: flex;
 }
-.footer-distributed .footer-bawah a {
+.footer-bawah a {
   display: inline-block;
   text-decoration: none;
   color: inherit;
